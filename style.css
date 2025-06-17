@@ -1,6 +1,6 @@
-body {
+body{
     font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
+    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,12 +8,12 @@ body {
     margin: 0;
 }
 
-h1 {
+h1{
     color: #333;
     margin-bottom: 20px;
 }
 
-form {
+form{
     background-color: #fff;
     padding: 20px 30px;
     border-radius: 12px;
@@ -22,7 +22,7 @@ form {
     width: 100%;
 }
 
-label {
+label{
     display: block;
     margin-top: 15px;
     font-weight: bold;
@@ -39,7 +39,7 @@ input[type="text"] {
     font-size: 16px;
 }
 
-button {
+button{
     margin-top: 20px;
     width: 100%;
     padding: 12px;
@@ -52,11 +52,11 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+button:hover{
     background-color: #005fa3;
 }
 
-#resultado {
+#resultado{
     margin-top: 30px;
     font-size: 18px;
     color: #222;
@@ -64,6 +64,3 @@ button:hover {
     text-align: center;
 }
 
-body{
-    background-color: aqua;
-}
