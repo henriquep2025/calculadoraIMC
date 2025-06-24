@@ -8,6 +8,7 @@ imcForm.addEventListener('submit', function (event) {
     calcularIMC(peso.value, altura.value);
 })
 
+
 function calcularIMC(p, a){
     const imc = p/ (a*a);
     const conta = imc.toFixed(2);
